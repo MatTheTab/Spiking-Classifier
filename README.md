@@ -4,6 +4,9 @@ Spiking Neural Network Image Classification with SNN-Torch and Gradio
 This project demonstrates the use of Spiking Neural Networks (SNNs) for image classification, by utilizing the SNN-Torch library. SNNs are biologically inspired models that emulate the spiking behavior of neurons, providing energy-efficient computation. The repository includes a pre-trained SNN model and an interactive demo powered by Gradio.
 
 ## Demo
+The model was trained on the CIFAR 10 dataset, as such to test the model's abilities, the photos used for testing should belong to one of the
+classes the model can recognize. The available classes are: <br>
+**["airplane", "automobile", "bird", "cat", "deer", "dog", "frog", "horse", "ship", "truck"]**  <br> <br>
 The demo can be found in this [Demo Google Colab Notebook](https://colab.research.google.com/drive/1jTGcoD2uFWfw-1giMwlRk9o2IW6EMFue?usp=sharing) <br>
 The Training process can be found in this [Training Google Colab Notebook](https://colab.research.google.com/drive/1JfQ9f0UAsYXfFmOIZBVc-rRJPu8JDTsj?usp=sharing) <br>
 
